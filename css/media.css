@@ -1,0 +1,160 @@
+/*//////////////////////////////header/////////////////////////////////*/
+@media (max-width: 991px) {
+  .main-header {
+    background-color: #222325;
+    position: relative;
+  }
+  .fixed {
+    animation: none !important;
+  }
+}
+/*/ ////////////////////////////landing////////////////////////////////*/
+
+@media (max-width: 991px) {
+  .landing-text {
+    font-size: 59px !important;
+  }
+}
+@media (max-width: 767px) {
+  .landing-text {
+    font-size: 45px !important;
+  }
+}
+@media (max-width: 615px) {
+  .landing-text {
+    font-size: 35px !important;
+  }
+}
+@media (max-width: 435px) {
+  .landing-text {
+    font-size: 28px !important;
+  }
+}
+@media (max-width: 387px) {
+  .landing-text {
+    font-size: 23px !important;
+  }
+}
+/*///////////////////////////////////About///////////////////////////*/
+@media (max-width: 991px) {
+  .About-heading {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .About-heading-name {
+    font-size: 30px !important;
+  }
+}
+/*//////////////////////////////////////// client /////////////////////////////*/
+@media (min-width: 992px) {
+  .carousel-caption {
+    width: 70% !important;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 15% !important;
+  }
+}
+@media (max-width: 350px) {
+  #client .carousel-caption p {
+    font-size: 14px !important;
+  }
+}
+/*////////////////////////////////////////POrtfolio//////////////////////////////*/
+
+@media (max-width: 991px) {
+  .filter {
+    flex-direction: column !important;
+  }
+  .filter-container {
+    padding-left: 0 !important;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .shuffle {
+    font-size: 15px !important;
+    padding: 8px 6px !important;
+  }
+}
+
+@media (max-width: 325px) {
+  .shuffle {
+    font-size: 11px !important;
+  }
+}
+/*///////////////////////////////////Blog//////////////////////*/
+@media (max-width: 992px) {
+  .Blog-item {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .blog-title {
+    font-size: 15px !important;
+  }
+  .Blog-heading {
+    font-size: 40px !important;
+  }
+}
+
+/*///////////////////////////////////Contant///////////////////*/
+
+@media (max-width: 991px) {
+  .Contact-heading {
+    font-size: 61px !important;
+  }
+  .Contact-heading .cu {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 480px) {
+  .gmap_iframe {
+    height: 350px !important;
+  }
+}
+@media (max-width: 460px) {
+  .Contact-heading {
+    font-size: 45px !important;
+  }
+  .Contact-heading .cu {
+    font-size: 29px !important;
+  }
+}
+@media (max-width: 348px) {
+  .Contact-heading {
+    font-size: 33px !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .btn-style-1 {
+    padding: 18px 22px !important;
+  }
+}
+
+/*///////////////////////////////////footer////////////////////*/
+
+@media (min-width: 768px) {
+  footer {
+    padding: 40px 0 !important;
+  }
+  .footer-Content {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  .copyRight {
+    margin-bottom: 0 !important;
+    font-size: 18px !important;
+  }
+  .social-icon {
+    font-size: 23px !important;
+  }
+}
+@media (max-width: 305px) {
+  .copyRight {
+    font-size: 13px !important;
+  }
+}

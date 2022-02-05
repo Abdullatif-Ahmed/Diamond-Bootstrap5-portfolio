@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css"">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="shortcut icon" href="image/shortcut icon.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Diamond</title>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.js"></script>
+  </head>
+  <body style="--secondary: #03a696">
+    <nav class="navbar navbar-expand-lg main-header">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.webp" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="toggle-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a data-link="Home" class="nav-link Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a data-link="About" class="nav-link About">About</a>
+            </li>
+            <li class="nav-item">
+              <a data-link="services" class="nav-link services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a data-link="client" class="nav-link client">Client</a>
+            </li>
+            <li class="nav-item">
+              <a data-link="portfolio" class="nav-link portfolio">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a data-link="Blog" class="nav-link Blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a data-link="Cont" class="nav-link Cont">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="properties">
+      <button id="properties-btn">
+        <i class="fas fa-cog rounded-anim"></i>
+      </button>
+      <ul class="color-setting list-unstyled">
+        <h3 class="color-setting-heading">Select your color</h3>
+        <li data-color="#03a696"></li>
+        <li data-color="crimson"></li>
+        <li data-color="blueviolet"></li>
+        <li data-color="brown"></li>
+        <li data-color="cadetblue"></li>
+        <li data-color="darkorange"></li>
+      </ul>
+    </div>
+    <section id="Home" class="landing vh-100">
+      <!-- Landing section -->
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="landing-content top-50">
+          <h1 class="landing-text">
+            <!--the text in the landing section-->
+            I'm a professional <span class="highlight">photographer.</span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section id="About" class="py-4">
+      <!-- About section -->
+      <div class="container">
+        <div class="About-content row">
+          <!-- About Container -->
+          <div class="About-img-container col-12 col-lg-6">
+            <!-- About image container -->
+            <img
+              class="About-img w-100 rounded"
+              src="image/About.jpg"
+              alt=""
+            /><!--the image in the About section-->
+          </div>
+          <div class="About-text col-12 col-lg-6 ps-lg-3">
+            <!-- the Details in the About Section -->
+            <div class="About-heading pb-2">
+              <h2 class="About-heading-name fw-bolder mb-1 fs-2">
+                Oliver Thomas
+              </h2>
+              <!--the name of authar-->
+              <span class="About-heading-skills highlight fw-normal"
+                >photographer</span
+              ><!--the skills of authar-->
+            </div>
+            <p class="About-details mt-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+              veritatis optio tempore minus a officia! Quod, possimus earum
+              excepturi aliquam deleniti dignissimos atque natus, nulla
+              recusandae, est ab magnam praesentium reiciendis architecto
+              nesciunt quibusdam. Nulla consequatur culpa officia tempora Lorem
+              ipsum dolor sit amet consectetur.
+            </p>
+            <a class="btn-style-1" href="#"> Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="py-4">
+      <div class="container">
+        <h2 class="services-heading ps-2">Our Services</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="sevices-item rounded text-center p-4 mt-4">
+              <i class="fas fa-code service-icon highlight mb-4"></i>
+              <h4 class="sevices-item-title mb-3 fs-4">App Development</h4>
+              <p class="sevices-item-desc fs-6">
+                Lorem ipsum dolor sit amet conse adipi elit. Officia modi rerum
+                quas nisi dese quae.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="sevices-item rounded text-center p-4 mt-4">
+              <i class="fas fa-chart-line service-icon highlight mb-4"></i>
+              <h4 class="sevices-item-title mb-3 fs-4">Graphic Design</h4>
+              <p class="sevices-item-desc fs-6">
+                Lorem ipsum dolor sit amet conse adipi elit. Officia modi rerum
+                quas nisi dese quae.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="sevices-item rounded text-center p-4 mt-4">
+              <i class="fas fa-desktop service-icon highlight mb-4"></i>
+              <h4 class="sevices-item-title mb-3 fs-4">Responsive Design</h4>
+              <p class="sevices-item-desc fs-6">
+                Lorem ipsum dolor sit amet conse adipi elit. Officia modi rerum
+                quas nisi dese quae.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="sevices-item rounded text-center p-4 mt-4">
+              <i class="fas fa-edit service-icon highlight mb-4"></i>
+              <h4 class="sevices-item-title mb-3 fs-4">Easy to customize</h4>
+              <p class="sevices-item-desc fs-6">
+                Lorem ipsum dolor sit amet conse adipi elit. Officia modi rerum
+                quas nisi dese quae.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="sevices-item rounded text-center p-4 mt-4">
+              <i class="fas fa-wifi service-icon highlight mb-4"></i>
+              <h4 class="sevices-item-title mb-3 fs-4">CEO Marketing</h4>
+              <p class="sevices-item-desc fs-6">
+                Lorem ipsum dolor sit amet conse adipi elit. Officia modi rerum
+                quas nisi dese quae.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="sevices-item rounded text-center p-4 mt-4">
+              <i class="fas fa-images service-icon highlight mb-4"></i>
+              <h4 class="sevices-item-title mb-3 fs-4">Photography</h4>
+              <p class="sevices-item-desc fs-6">
+                Lorem ipsum dolor sit amet conse adipi elit. Officia modi rerum
+                quas nisi dese quae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="client" class="py-4 w-100">
+      <div class="overlay"></div>
+      <div class="container">
+        <div id="client-slider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#client-slider"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#client-slider"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#client-slider"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption d-block mx-auto">
+                <img src="image/client1.jpg" alt="James Declan" class="mb-2" />
+                <h5 class="mb-3">James Declan</h5>
+                <p>
+                  " Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  aliquid illum reiciendis sunt ut labore sint soluta nobis
+                  ullam. Nobis. "
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block mx-auto">
+                <img src="image/client2.jpg" alt="Ayden Luca" class="mb-2" />
+                <h5 class="mb-3">Ayden Luca</h5>
+                <p>
+                  " Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  aliquid illum reiciendis sunt ut labore sint soluta nobis
+                  ullam. Nobis. "
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block mx-auto">
+                <img src="image/client3.jpg" alt="Kevin Tyler" class="mb-2" />
+                <h5 class="mb-3">Kevin Tyler</h5>
+                <p>
+                  " Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  aliquid illum reiciendis sunt ut labore sint soluta nobis
+                  ullam. Nobis. "
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev d-none d-md-block"
+        type="button"
+        data-bs-target="#client-slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next d-none d-md-block"
+        type="button"
+        data-bs-target="#client-slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <section id="portfolio" class="Portfolio py-4">
+      <!-- Portfolio Section -->
+      <div class="container">
+        <div class="filter d-flex justify-content-between align-items-center">
+          <h2 class="portfolio-heading ps-2 fs-2">Latest Works</h2>
+          <!-- Portfolio Heading -->
+          <ul class="filter-container d-flex flex-wrap">
+            <!-- Portfolio menu -->
+            <li
+              class="shuffle shiffle-active ms-2 fs-5 rounded-3 p-2"
+              data-filter="all"
+            >
+              ALL
+            </li>
+            <li
+              class="shuffle ms-2 fs-5 rounded-3 p-2"
+              data-filter=".Underwater"
+            >
+              Underwater
+            </li>
+            <li class="shuffle ms-2 fs-5 rounded-3 p-2" data-filter=".Wildlife">
+              Wildlife
+            </li>
+            <li class="shuffle ms-2 fs-5 rounded-3 p-2" data-filter=".Natural">
+              Natural
+            </li>
+          </ul>
+        </div>
+        <div class="portfolio-items row pt-5">
+          <!-- Portfolio items -->
+          <div
+            class="portfolio-item col-12 col-md-6 col-lg-4 mix Underwater"
+            data-order="1"
+          >
+            <a
+              href="Portfolio-single.html"
+              class="Portfolio-img-container w-100 rounded d-inline-block"
+            >
+              <img
+                src="image/portfolio1.webp"
+                alt=""
+                class="Portfolio-img w-100"
+              />
+              <!-- Portfolio item image -->
+            </a>
+            <h4 class="Portfolio-item-title">
+              <a href="Portfolio-single.html">Scuba Diving</a>
+            </h4>
+            <!-- Portfolio item heading -->
+            <a href="Portfolio-single.html" class="Categorie d-inline-block"
+              ><span class="Categorie-name d-block">Underwater</span
+              ><!-- Portfolio item Categori --><span
+                class="View-project d-block"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></span>
+            </a>
+          </div>
+          <div
+            class="portfolio-item col-12 col-md-6 col-lg-4 mix Natural"
+            data-order="2"
+          >
+            <a
+              href="Portfolio-single.html"
+              class="Portfolio-img-container w-100 rounded d-inline-block"
+            >
+              <img
+                src="image/portfolio2.webp"
+                alt=""
+                class="Portfolio-img w-100"
+              />
+            </a>
+            <h4 class="Portfolio-item-title">
+              <a href="Portfolio-single.html">Mountain</a>
+            </h4>
+            <a href="Portfolio-single.html" class="Categorie d-inline-block"
+              ><span class="Categorie-name d-block">Natural</span
+              ><span class="View-project d-block"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></span>
+            </a>
+          </div>
+          <div
+            class="portfolio-item col-12 col-md-6 col-lg-4 mix Wildlife"
+            data-order="3"
+          >
+            <a
+              href="Portfolio-single.html"
+              class="Portfolio-img-container w-100 rounded d-inline-block"
+            >
+              <img
+                src="image/portfolio3.webp"
+                alt=""
+                class="Portfolio-img w-100"
+              />
+            </a>
+            <h4 class="Portfolio-item-title">
+              <a href="Portfolio-single.html">elk</a>
+            </h4>
+            <a href="Portfolio-single.html" class="Categorie d-inline-block"
+              ><span class="Categorie-name d-block">Wildlife</span
+              ><span class="View-project d-block"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></span>
+            </a>
+          </div>
+          <div
+            class="portfolio-item col-12 col-md-6 col-lg-4 mix Underwater"
+            data-order="4"
+          >
+            <a
+              href="Portfolio-single.html"
+              class="Portfolio-img-container w-100 rounded d-inline-block"
+            >
+              <img
+                src="image/portfolio4.webp"
+                alt=""
+                class="Portfolio-img w-100"
+              />
+            </a>
+            <h4 class="Portfolio-item-title">
+              <a href="Portfolio-single.html">Coral reefs</a>
+            </h4>
+            <a href="Portfolio-single.html" class="Categorie d-inline-block"
+              ><span class="Categorie-name d-block">Underwater</span
+              ><span class="View-project d-block"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></span>
+            </a>
+          </div>
+          <div
+            class="portfolio-item col-12 col-md-6 col-lg-4 mix Natural"
+            data-order="5"
+          >
+            <a
+              href="Portfolio-single.html"
+              class="Portfolio-img-container w-100 rounded d-inline-block"
+            >
+              <img
+                src="image/portfolio5.webp"
+                alt=""
+                class="Portfolio-img w-100"
+              />
+            </a>
+            <h4 class="Portfolio-item-title">
+              <a href="Portfolio-single.html">Sea</a>
+            </h4>
+            <a href="Portfolio-single.html" class="Categorie d-inline-block"
+              ><span class="Categorie-name d-block">Natural</span
+              ><span class="View-project d-block"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></span>
+            </a>
+          </div>
+          <div
+            class="portfolio-item col-12 col-md-6 col-lg-4 mix Wildlife"
+            data-order="6"
+          >
+            <a
+              href="Portfolio-single.html"
+              class="Portfolio-img-container w-100 rounded d-inline-block"
+            >
+              <img
+                src="image/portfolio6.webp"
+                alt=""
+                class="Portfolio-img w-100"
+              />
+            </a>
+            <h4 class="Portfolio-item-title">
+              <a href="Portfolio-single.html">cub</a>
+            </h4>
+            <a href="Portfolio-single.html" class="Categorie d-inline-block"
+              ><span class="Categorie-name d-block">Wildlife</span
+              ><span class="View-project d-block"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Blog" class="Blog-section py-4">
+      <!-- Blog Section -->
+      <div class="container">
+        <h2 class="Blog-heading mt-0 mb-4 ps-2 fs-2">Our Blog</h2>
+        <!-- Blog Heading -->
+        <div class="Blog-items row">
+          <!-- Blog items -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Blog-item mb-5">
+              <!-- Blog item -->
+              <a
+                href="Blog-Single.html"
+                class="Blog-img-container rounded d-block overflow-hidden"
+              >
+                <img
+                  src="image/Blog 1.webp"
+                  alt=""
+                  class="Blog-img rounded w-100"
+                />
+                <!-- Blog item image -->
+              </a>
+              <div class="Blog-item-bottom p-4 pt-2">
+                <div class="blog-meta-data mt-0">
+                  <time datetime="2021-08-21">Aug 21,2021</time> at
+                  <time>11:20 am</time>
+                </div>
+                <h3 class="blog-title">
+                  <!-- Blog item title -->
+                  <a href="Blog-Single.html">Lorem ipsum dolor sit amet </a>
+                </h3>
+                <p class="blog-expert">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Debitis, ratione ut impedit.
+                </p>
+                <a href="Blog-Single.html" class="read-more">Read more...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Blog-item mb-5">
+              <!-- Blog item -->
+              <a
+                href="Blog-Single.html"
+                class="Blog-img-container rounded d-block overflow-hidden"
+              >
+                <img
+                  src="image/Blog 2.webp"
+                  alt=""
+                  class="Blog-img rounded w-100"
+                />
+                <!-- Blog item image -->
+              </a>
+              <div class="Blog-item-bottom p-4 pt-2">
+                <div class="blog-meta-data mt-0">
+                  <time datetime="2021-08-21">Aug 21,2021</time> at
+                  <time>11:20 am</time>
+                </div>
+                <h3 class="blog-title">
+                  <!-- Blog item title -->
+                  <a href="Blog-Single.html">Lorem ipsum dolor sit amet </a>
+                </h3>
+                <p class="blog-expert">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Debitis, ratione ut impedit.
+                </p>
+                <a href="Blog-Single.html" class="read-more">Read more...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Blog-item mb-5">
+              <!-- Blog item -->
+              <a
+                href="Blog-Single.html"
+                class="Blog-img-container rounded d-block overflow-hidden"
+              >
+                <img
+                  src="image/Blog 3.webp"
+                  alt=""
+                  class="Blog-img rounded w-100"
+                />
+                <!-- Blog item image -->
+              </a>
+              <div class="Blog-item-bottom p-4 pt-2">
+                <div class="blog-meta-data mt-0">
+                  <time datetime="2021-08-21">Aug 21,2021</time> at
+                  <time>11:20 am</time>
+                </div>
+                <h3 class="blog-title">
+                  <!-- Blog item title -->
+                  <a href="Blog-Single.html">Lorem ipsum dolor sit amet </a>
+                </h3>
+                <p class="blog-expert">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Debitis, ratione ut impedit.
+                </p>
+                <a href="Blog-Single.html" class="read-more">Read more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Cont" class="Contact pb-5">
+      <!-- Contact Section -->
+      <div class="container">
+        <div class="Contact-heading">
+          <!-- Contact heading -->
+          GET IN TOUCH
+          <span class="cu">CONTACT US</span>
+        </div>
+        <div class="Contact-container row mt-5">
+          <!-- Contact Container -->
+          <div class="Contact-form col-12 mb-4">
+            <!-- Contact form -->
+            <form action="#" id="form">
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                placeholder="Full Name *"
+                required
+              />
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                placeholder="your Email *"
+                required
+              />
+              <input
+                class="form-control"
+                type="text"
+                name="Subject"
+                placeholder="Subject *"
+                required
+              />
+              <textarea
+                class="form-control pt-2"
+                name="textarea"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="your message *"
+                required
+              ></textarea>
+              <button type="submit" class="btn-style-1 w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-4">
+      <div class="container">
+        <div class="footer-Content d-flex flex-column text-center">
+          <!-- Footer Container -->
+          <span class="copyRight">
+            &copy; 2021 - Diamond,All Right Reserved</span
+          >
+          <div class="social">
+            <!-- Social Container -->
+            <a class="social-icon d-inline-block ms-3" href="#">
+              <i class="fab fa-facebook-f"></i>
+              <!-- Facebook icon -->
+            </a>
+            <a href="#" class="social-icon d-inline-block ms-3">
+              <i class="fab fa-twitter"></i>
+              <!-- twitter icon -->
+            </a>
+            <a href="#" class="social-icon d-inline-block ms-3">
+              <i class="fab fa-instagram"></i>
+              <!-- instagram icon -->
+            </a>
+            <a href="#" class="social-icon d-inline-block ms-3">
+              <i class="fab fa-linkedin-in"></i>
+              <!-- linkedin icon -->
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <span class="up rounded"><i class="fas fa-angle-up"></i></span>
+    <!-- btn to up -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script>
+      // shuffle
+      var mixer = mixitup(".portfolio-items");
+      let shuffle = document.querySelectorAll(".filter-container li");
+
+      let shf = shuffle.forEach(function (el) {
+        el.onclick = function () {
+          shuffle.forEach(function (el) {
+            el.classList.remove("shiffle-active");
+          });
+          el.classList.add("shiffle-active");
+        };
+      });
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

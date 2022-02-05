@@ -1,0 +1,56 @@
+@import url(style.css);
+body {
+  background-color: #26282b;
+}
+.Project-page .container {
+  padding-top: 100px;
+}
+.Project-heading {
+  text-align: center;
+}
+.Project-title {
+  font-weight: 500;
+}
+.Project-Categorie {
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.Overview {
+  width: 65%;
+}
+.Overview-heading {
+  font-weight: 500;
+}
+.Overview-text {
+  line-height: calc(var(--line-height) - 0.4);
+  letter-spacing: var(--letter-spacing);
+  word-spacing: var(--word-spacing);
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.MetaDate-item {
+  font-weight: 500;
+}
+.Meta-info {
+  color: var(--gray);
+  font-weight: 400;
+}
+
+/*///////////////////////////////////Mobile//////////////*/
+@media (max-width: 1030px) {
+  .Project-Details {
+    flex-direction: column;
+  }
+  .Overview,
+  .MetaDate {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .Project-title {
+    font-size: 38px !important;
+  }
+}
